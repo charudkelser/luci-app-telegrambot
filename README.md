@@ -18,8 +18,8 @@ Install dependensi terlebih dahulu, lalu install paket `.ipk`:
 opkg update
 opkg install curl ca-certificates jq conntrack-tools
 wget --no-check-certificate -O /tmp/telebot.ipk [https://github.com/charudkelser/luci-app-telegrambot/raw/main/luci-app-telegrambot_1.0.4_all.ipk](https://github.com/charudkelser/luci-app-telegrambot/raw/main/luci-app-telegrambot_1.0.4_all.ipk)
-opkg install /tmp/telebot.ipk
-rm /tmp/telebot.ipk
+opkg install /tmp/luci-app-telegrambot_1.0.4_all.ipk
+rm /tmp/luci-app-telegrambot_1.0.4_all.ipk
 ```
 
 ### 📦 OpenWrt >= 25.12 (Using APK)
@@ -30,8 +30,8 @@ Install dependensi terlebih dahulu, lalu install paket `.apk`:
 apk update
 apk add curl ca-certificates jq conntrack-tools
 wget --no-check-certificate -O /tmp/telebot.apk [https://github.com/charudkelser/luci-app-telegrambot/raw/main/luci-app-telegrambot-1.0.4-r1.apk](https://github.com/charudkelser/luci-app-telegrambot/raw/main/luci-app-telegrambot-1.0.4-r1.apk)
-apk add --allow-untrusted /tmp/telebot.apk
-rm /tmp/telebot.apk
+apk add --allow-untrusted /tmp/luci-app-telegrambot-1.0.4-r1.apk
+rm /tmp/luci-app-telegrambot-1.0.4-r1.apk
 ```
 
 ---
