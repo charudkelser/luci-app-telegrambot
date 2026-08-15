@@ -14,14 +14,12 @@ Aplikasi kontrol dan monitoring sistem OpenWrt secara real-time langsung melalui
 
 Jalankan perintah berikut via SSH terminal OpenWrt:
 
-` ` `bash
+```bash
 opkg update
-wget --no-check-certificate -O /tmp/telebot.ipk https://github.com/charudkelser/luci-app-telegrambot/raw/main/luci-app-telegrambot_1.0.4_all.ipk
+wget --no-check-certificate -O /tmp/telebot.ipk [https://github.com/charudkelser/luci-app-telegrambot/raw/main/luci-app-telegrambot_1.0.4_all.ipk](https://github.com/charudkelser/luci-app-telegrambot/raw/main/luci-app-telegrambot_1.0.4_all.ipk)
 opkg install /tmp/telebot.ipk
 rm /tmp/telebot.ipk
-` ` `
 
----
 
 ## 🛠️ Features
 
