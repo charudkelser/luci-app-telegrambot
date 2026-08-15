@@ -15,14 +15,15 @@ Aplikasi kontrol dan monitoring sistem OpenWrt secara real-time melalui Telegram
 Copas baris perintah ini di terminal SSH:
 
 ```bash
-opkg update && opkg install curl ca-certificates jq conntrack && wget --no-check-certificate -O /tmp/telebot.ipk [https://github.com/charudkelser/luci-app-telegrambot/raw/main/luci-app-telegrambot_1.0.4_all.ipk](https://github.com/charudkelser/luci-app-telegrambot/raw/main/luci-app-telegrambot_1.0.4_all.ipk) && opkg install /tmp/telebot.ipk && rm /tmp/telebot.ipk
+opkg update && opkg install curl ca-certificates jq conntrack && wget --no-check-certificate -O /tmp/telebot.ipk https://github.com/charudkelser/luci-app-telegrambot/raw/main/luci-app-telegrambot_1.0.4_all.ipk && opkg install /tmp/telebot.ipk && rm /tmp/telebot.ipk
+
 ```
 
 📦 OpenWrt >= 25.12 (Using APK)
 ​Copas baris perintah ini di terminal SSH:
 
 ```bash
-apk update && apk add curl ca-certificates jq conntrack && wget --no-check-certificate -O /tmp/telebot.apk [https://github.com/charudkelser/luci-app-telegrambot/raw/main/luci-app-telegrambot-1.0.4-r1.apk](https://github.com/charudkelser/luci-app-telegrambot/raw/main/luci-app-telegrambot-1.0.4-r1.apk) && apk add --allow-untrusted /tmp/telebot.apk && rm /tmp/telebot.apk
+apk update && apk add curl ca-certificates jq conntrack && wget --no-check-certificate -O /tmp/telebot.apk https://github.com/charudkelser/luci-app-telegrambot/raw/main/luci-app-telegrambot-1.0.4-r1.apk && apk add --allow-untrusted /tmp/telebot.apk && rm /tmp/telebot.apk
 ```
 
 🛠️ Features
